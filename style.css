@@ -1,1 +1,27 @@
- 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: flex; 
+  border: 3px solid black;
+  height:600px;
+  width: 600px;
+
+}
+
+.grid-row {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    
+    
+}
+
+.grid {
+    display:flex;
+    flex:1;
+}
+
