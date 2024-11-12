@@ -20,8 +20,16 @@ body {
     
 }
 
-.grid {
+.grid{
     display:flex;
     flex:1;
 }
 
+/* .grid:hover {
+  background-color: black;
+  cursor:pointer;
+} */
+
+.color-black {
+  background-color: black;
+}
